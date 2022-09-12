@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet at reverse
+ * main - Prints the alphabets at reverse
  *
  * Return: Always (Success)
  */
-int main(void)<F11>
+int main(void)
 {
 	char c;
 
