@@ -14,7 +14,7 @@ int main(void)
 		putchar(c);
 	}
 
-	for (c = 'a'; c <= 'f'; c++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		putchar(c);
 	}
@@ -24,4 +24,3 @@ int main(void)
 	return (0);
 
 }
-			 
