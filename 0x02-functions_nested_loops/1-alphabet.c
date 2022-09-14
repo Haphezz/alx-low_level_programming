@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet - function to print abc
+ * print_alphabet -  write abc...
  *
- * Return: Always (success)
+ * Return: Always (Successfu)
  */
 void print_alphabet(void)
 {
@@ -15,6 +15,4 @@ void print_alphabet(void)
 	}
 
 	_putchar('\n');
-
-	return (0);
 }
