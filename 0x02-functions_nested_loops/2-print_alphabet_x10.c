@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *  print_alphabet_x10 - write abc... 10 times
+ * print_alphabet_x10 - function to print abc 10 times
  *
- *  Return: Always (Successful)
+ * Return: 0
  */
 void print_alphabet_x10(void)
 {
@@ -15,10 +15,6 @@ void print_alphabet_x10(void)
 		{
 			_putchar(c);
 		}
-
 		_putchar('\n');
 	}
-
-	return (0);
 }
-
