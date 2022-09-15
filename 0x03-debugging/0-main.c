@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - prints positive or negative integer
+ * main - Prints positive or negative integer
  *
- * Return: Always (successful)
+ * Return: 0
  */
 int main(void)
 {
@@ -11,7 +11,7 @@ int main(void)
 
 	i = 0;
 
-	positive or negative(i);
+	positive_or_negative(i);
 
 	return (0);
 }
