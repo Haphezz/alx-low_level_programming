@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_rev - Prints a string in reverse
- * @s: String to print
+ * print_rev - Prints a string reverse
+ * @s: The string to print
  *
  * Return: Always (success)
  */
@@ -14,4 +14,11 @@ void print_rev(char *s)
 	{
 		c++;
 	}
+
+	for (c -= 1; c >= 0; c--)
+	{
+		_putchar(s[c]);
+	}
+
+	_putchar('\n');
 }
